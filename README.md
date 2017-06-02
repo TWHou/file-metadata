@@ -1,27 +1,23 @@
-Welcome to the Glitch BETA
-=========================
+file-metadata
+=============
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This project is part of the FreeCodeCamp Back End Development Certification.
 
-**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
+[File Metadata Microservice](https://www.freecodecamp.com/challenges/file-metadata-microservice)
 
 
-Your Project
-------------
+Prerequisites
+-------------
 
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+- nodejs
+- npm
 
 
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
+Local Deployment Instruction
+----------------------------
 
-\ ゜o゜)ノ
+1. Download or clone this repository
+2. In the terminal, navigate to the folder
+3. Install package and dependencies using `npm install`
+5. Start server using `node server.js`
+6. The app should now be running at `http://localhost`
